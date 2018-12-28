@@ -18,6 +18,6 @@ export const Container = styled.div`
   ${media.handheld`width: 100%`}
 `;
 
-export const Main = props => {
+export const Main = (props) => {
   return <Container>{props.children}</Container>;
 };
