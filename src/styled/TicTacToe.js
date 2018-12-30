@@ -70,6 +70,10 @@ export const Squares = ({
           let index = event.target.index;
           makeMove(index, ownMark);
         }}
+        onTap={event => {
+          let index = event.target.index;
+          makeMove(index, ownMark);
+        }}
       />
     );
   });
